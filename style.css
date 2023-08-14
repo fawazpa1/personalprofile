@@ -1,0 +1,92 @@
+body{
+   
+    background-image: url('https://img.freepik.com/free-vector/gradient-color-line-wave-background_483537-3978.jpg?w=740&t=st=1690991792~exp=1690992392~hmac=a0203108122ffc28cae5b6578605843019965288dc9e8e9ca9ffa84e9d7bbfab');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    
+    color:white;
+    margin-left:600px;
+    padding-top:150px;
+    font-style: italic;
+   
+}
+.about{
+    font-size: 20px;
+    color:white;
+    margin-left:600px;
+    padding-top:20px;
+   
+    
+  }
+  .contact{
+    font-size: 20px;
+    color:white;
+    margin-left:600px;
+    padding-top:20px;
+  }
+ 
+h1{
+    font-size:75px;
+    
+}
+
+
+img {
+    border-radius: 500px;
+    width: 350px;
+    height: 350px;
+  }
+  .photo{
+     margin-top:-250px;
+     margin-left:80px;
+    
+  }
+
+
+.card{
+   
+    box-shadow: black;
+    background-color:rgb(209, 232, 8);
+    transition: 0.3s;
+    color: black;
+ }
+ .experience{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+ }
+ .card-title{
+    font-size:25px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 5%;
+ }
+
+.card-subtitle{
+    font-size:20px;
+    text-align: left;
+   margin-top: -10%;
+   margin-left: 10px;
+   padding-top:30px;
+}
+
+.card-text{
+    font-size: 18px;
+    text-align: left;
+   margin-top: -10%;
+   margin-left: 10px;
+   padding-top: 50px;
+}
+
+.row{
+    padding-top:100px;
+    margin-left: 50px;
+}
+.experience{
+    color:white;
+    font-style: italic;
+}
