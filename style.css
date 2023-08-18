@@ -41,8 +41,10 @@ img {
     height: 350px;
   }
   .photo{
-     margin-top:-250px;
-     margin-left:80px;
+       margin-top:-250px;
+        margin-left:80px;
+        vertical-align:middle;
+        border-radius: 50%;
     
   }
 
