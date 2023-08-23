@@ -1,31 +1,36 @@
+
 body{
-   
+    
     background-image: url('https://img.freepik.com/free-vector/gradient-color-line-wave-background_483537-3978.jpg?w=740&t=st=1690991792~exp=1690992392~hmac=a0203108122ffc28cae5b6578605843019965288dc9e8e9ca9ffa84e9d7bbfab');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-
+.sctions1{
+    display:block;
+}
 .header{
     
     color:white;
-    margin-left:600px;
+    margin-left: 574px;
     padding-top:150px;
     font-style: italic;
    
 }
 .about{
+
     font-size: 20px;
-    color:white;
-    margin-left:600px;
-    padding-top:20px;
-   
-    
+    color: white;
+    margin-left: 574px;
+    padding-top: 32px;
   }
+    
+  
+ 
   .contact{
     font-size: 20px;
     color:white;
-    margin-left:600px;
+    margin-left: 574px;
     padding-top:20px;
   }
  
@@ -41,31 +46,36 @@ img {
     height: 350px;
   }
   .photo{
-       margin-top:-250px;
-        margin-left:80px;
-        vertical-align:middle;
-        border-radius: 50%;
-    
-  }
+     margin-top:-250px;
+     margin-left:80px;
+     vertical-align:left;
+     border-radius: 50%;
 
+  }
 
 .card{
    
-    box-shadow: black;
     background-color:rgb(209, 232, 8);
     transition: 0.3s;
-    color: black;
+   border-radius: 20px;
+   
  }
+
+
+
  .experience{
     text-align: center;
     font-size: 50px;
     color: white;
+    font-style: italic;
  }
+
  .card-title{
     font-size:25px;
     text-align: center;
     font-style: italic;
     padding-top: 5%;
+    
  }
 
 .card-subtitle{
@@ -85,10 +95,37 @@ img {
 }
 
 .row{
-    padding-top:100px;
+    padding-top:75px;
     margin-left: 50px;
 }
-.experience{
-    color:white;
-    font-style: italic;
-}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
